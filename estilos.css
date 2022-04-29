@@ -1,0 +1,80 @@
+html * {
+    font-family: "Roboto";
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    color: #6E29A9;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    margin-block-start: 50px;
+    margin-block-end: 50px;
+    color: #6E29A9;
+}
+
+
+.Filas {
+    overflow: hidden;
+    width: 736.77px;
+}
+
+.Filas div {
+    height: 444 px;
+    width: 736.77px;
+    margin-top: -10px;
+}
+
+.Filas img {
+    width: 74px;
+    height: 74px;
+    float: left;
+    margin: 10px 0px 0 47.77px;
+}
+
+.encabezado {
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.encabezado img {
+    width: 33.32px;
+    height: 40px;
+}
+
+.encabezado nav {
+    width: 439px;
+    height: 36px;
+}
+
+.encabezado button {
+    width: 124px;
+    height: 36px;
+    margin-right: 46px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #01A1E9;
+    background-color: transparent;
+}
+
+
+#inicio {
+    color: #6E29A9;
+    background: #F5F5F5;
+    border-radius: 6px;
+}
+
+#panel {
+    height: 566px;
+}
+
+#gráfico {
+    width: 554px;
+    height: 389px;
+}
