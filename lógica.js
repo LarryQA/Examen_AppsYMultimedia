@@ -5,17 +5,17 @@ let valor = document.getElementById("salario").value
 let bruto = document.getElementById("bruto")
 bruto.value = valor
 
-let inss = document.getElementById("Inss")
-inss.value = valor * 0.07
+let inss = document.getElementById("inss")
+inss.value = bruto * 0.07
 
-let deduccionInss = document.getElementById("deduccionInss")
-deduccionInss.value = valor - inss
+let deducciones = document.getElementById("deducciones")
+deducciones.value = bruto - inss
 
-let ir = document.getElementById("deduccionInss")
+let ir = document.getElementById("ir")
 ir.value = calculoIr(valor)
 
 let salarioNeto  = document.getElementById("neto")
-salarioNeto.value = deduccionInss - ir
+salarioNeto.value = deducciones - ir
 
 }
 

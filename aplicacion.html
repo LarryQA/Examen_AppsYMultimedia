@@ -31,7 +31,7 @@
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="about.html">Acerca de</a></li>
                     <li><a href="aplicacion.html">Aplicación</a></li>
- 
+
                 </ul>
             </nav>
         </div>
@@ -41,53 +41,56 @@
     <div class="contenidoPrincipal">
         <h2>Calcular salario</h2>
 
-        <div class = "calculadora">
+        <div class="calculadora">
             <p>Ingrese su salario mensual</p>
 
-            <input id="impP3" type="number">
-    
-            <button type="button">
+            <input id="salario" type="number">
+
+            <button onclick="calcularSalario()" type="button">
                 Calcular
             </button>
-    
+
             <p>Salario mensual</p>
-    
-            <input type="number" readonly>
-    
+
+            <input id="bruto" type="number" readonly>
+
             <p>Deducción del INSS</p>
-    
-            <input type="number" readonly>
-    
+
+            <input id="inss" type="number" readonly>
+
             <p>Salario neto (luego de deducciones)</p>
-    
-            <input type="number" readonly>
-    
+
+            <input id="deducciones" type="number" readonly>
+
             <p>Deducción del impuesto sobre la renta (IR)</p>
-    
-            <input type="number" readonly>
-    
+
+            <input id="ir" type="number" readonly>
+
             <p>Salario total con deducciones</p>
-    
-            <input type="number" readonly>
+
+            <input id="neto" type="number" readonly>
+
+            <script src="lógica.js"></script>
+
         </div>
-       
 
 
 
 
-    <footer class="pieDePagina">
-        <div class="logo">
-            <img src="imágenes/Paguito.png">
 
-            <div>
-                <div class="linea"></div>
-                <p class="textoLogo">AGUITO</p>
+        <footer class="pieDePagina">
+            <div class="logo">
+                <img src="imágenes/Paguito.png">
+
+                <div>
+                    <div class="linea"></div>
+                    <p class="textoLogo">AGUITO</p>
+                </div>
             </div>
-        </div>
 
-        <p class="textoPie">Lorem ipsum dolor sit amet</p>
+            <p class="textoPie">Lorem ipsum dolor sit amet</p>
 
-    </footer>
+        </footer>
 
 </body>
 
