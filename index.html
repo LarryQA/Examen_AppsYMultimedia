@@ -12,66 +12,121 @@
     <title>Paguito</title>
 </head>
 
-<header>
-
-    <div class = "encabezado">
-        <img src="imágenes/Paguito.png">
-        <h1>AGUITO</h1>
-        <nav>
-            <button id = "inicio" type="button">
-                Inicio
-            </button>
-            <button type="button">
-                Acerca de
-            </button>
-            <button type="button">
-                Aplicación
-            </button>
-        </nav>
-    </div>
-
-    <div>
-        <img id = "panel" src="imágenes/Panel.png">
-    </div>
-
-</header>
-
 <body>
-    <h2>Lorem ipsum</h2>
-    <img id = "gráfico" src="imágenes/Gráfico.png">
-    <p>Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Libero ratione
-        dignissimos odio, et nulla saepe
-        magni ut! Ex asperiores tenetur,
-        doloremque quia dolores deleniti
-        unde voluptatem possimus placeat
-        alias velit.</p>
+    <header>
 
-    <button type="button">
-        Ir a la aplicación
-    </button>
+        <div class="encabezado">
 
+            <div class="logo">
+                <img src="imágenes/Paguito.png">
 
+                <div>
+                    <div class="linea"></div>
+                    <h1>AGUITO</h1>
+                </div>
+            </div>
 
-    <h2>Patrocinadores</h2>
+            <nav>
+                <button id="inicio" type="button">
+                    Inicio
+                </button>
+                <button type="button">
+                    Acerca de
+                </button>
+                <button type="button">
+                    Aplicación
+                </button>
+            </nav>
+        </div>
 
-    <div class="Filas">
         <div>
+            <img id="panel" src="imágenes/Panel.png">
+        </div>
+
+    </header>
+
+    <div class="contenidoPrincipal">
+        <h2>Lorem ipsum</h2>
+
+        <div class="dosColumnas">
+            <img id="gráfico" src="imágenes/Gráfico.png">
+
+            <div>
+                <p id="texto">Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit. Donec odio. Quisque volutpat mattis
+                    eros. Nullam malesuada erat ut turpis. Suspendisse
+                    urna nibh, viverra non, semper suscipit, posuere
+                    a, pede.</p>
+
+                <button class="btnContent" type="button">
+                    Ir a la aplicación
+                </button>
+            </div>
+
+        </div>
+
+
+
+        <div class="lineaTitulo">
+            <h2>Patrocinadores</h2>
+            <div></div>
+        </div>
+
+
+        <div class="Filas">
             <img src="imágenes/P1.svg">
             <img src="imágenes/P2.svg">
-            <img src="imágenes/P3.png">
+            <img id="bitLogo" src="imágenes/P3.png">
             <img src="imágenes/P4.svg">
             <img src="imágenes/P5.svg">
             <img src="imágenes/P6.svg">
         </div>
+
+        <div class="lineaTitulo">
+            <h2>Noticias</h2>
+            <div></div>
+        </div>
+
+        <section class="articulos">
+            <article>
+                <img src="imágenes/N1.png" alt="Post">
+                <div class="textoImagen">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </article>
+            <article>
+                <img src="imágenes/N2.png" alt="Post">
+                <div class="textoImagen">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </article>
+            <article>
+                <img src="imágenes/N3.png" alt="Post">
+                <div class="textoImagen">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </article>
+        </section>
     </div>
 
+    <footer class="pieDePagina">
+        <div class="logo">
+            <img src="imágenes/Paguito.png">
+        
+            <div>
+                <div class="linea"></div>
+                <p class = "textoLogo">AGUITO</p>
+            </div>
+        </div>
 
+        <p class = "textoPie">Lorem ipsum dolor sit amet</p>
 
+    </footer>
 
 </body>
-<footer>
 
-</footer>
 
 </html>
