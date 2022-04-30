@@ -1,0 +1,291 @@
+html * {
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 23px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    color: #6E29A9;
+    margin: 0;
+    padding: 0px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    margin-block-start: 50px;
+    margin-block-end: 50px;
+    padding: 0px;
+    color: #6E29A9;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #523E97;
+}
+
+.encabezado {
+    display: flex;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.encabezado nav {
+    width: 439px;
+    height: 36px;
+    justify-content: space-between;
+}
+
+
+.menu>ul {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu>ul li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.menu>ul li a {
+    text-decoration: none;
+    padding: 10px 5px;
+    width: 124px;
+    height: 36px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #01A1E9;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.menu>ul li a:hover {
+    color: #6E29A9;
+    background: #F5F5F5;
+    border-radius: 6px;
+}
+
+
+/* .encabezado button {
+    width: 124px;
+    height: 36px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #01A1E9;
+    background-color: transparent;
+    border-color: transparent;
+} */
+
+.logo {
+    display: flex;
+    width: 193px;
+    height: 55px;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.logo img {
+    align-self: flex-start;
+    width: 33.32px;
+    height: 40px;
+
+}
+
+.linea {
+    width: 142px;
+    height: 3px;
+    background: #6E29A9;
+}
+
+.contenidoPrincipal {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.dosColumnas {
+    display: flex;
+    align-items: center;
+}
+
+.dosColumnas div {
+    margin-left: 104px;
+    flex-flow: column wrap;
+}
+
+.lineaTitulo {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.lineaTitulo h2 {
+    margin: 0px;
+}
+
+.lineaTitulo div {
+    width: 135px;
+    height: 6px;
+    background: #01A1E9;
+}
+
+.Filas {
+    display: flex;
+    width: 689px;
+    height: 75px;
+    justify-content: space-between;
+}
+
+.Filas img {
+    width: 74px;
+    height: 74px;
+}
+
+.btnContent {
+    width: 272px;
+    height: 68px;
+    background: #6E29A9;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.articulos {
+    display: flex;
+    width: 1200px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.articulos h2 {
+    font-size: 24px;
+    margin: 0px;
+    line-height: 28px;
+    color: white;
+}
+
+.articulos article {
+    position: relative;
+    margin: 20px;
+}
+
+.articulos img {
+    position: relative;
+    width: 362px;
+    height: 362px;
+    border-radius: 19px;
+}
+
+.textoImagen {
+    z-index: 100;
+    position: absolute;
+    bottom: 34px;
+    left: 14px;
+}
+
+.textoImagen p {
+    margin: 0px;
+    color: white;
+}
+
+.pieDePagina {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 189px;
+    background-color: #1B314F;
+}
+
+.textoLogo {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    color: #6E29A9;
+    margin: 0;
+    padding: 0px;
+}
+
+.textoPie {
+    color: white;
+}
+
+.dosColumnasIzquieda {
+    display: flex;
+    align-items:  flex-start;
+}
+
+.dosColumnasIzquieda div {
+    margin-left: 104px;
+    flex-flow: column wrap;
+}
+
+.textoAcotado {
+    width: 740px;
+}
+
+.textoExtendido {
+    display: flex;
+    width: 1120px;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+/* #inicio {
+    color: #6E29A9;
+    background: #F5F5F5;
+    border-radius: 6px;
+} */
+
+#panel {
+    width: 100%;
+    height: 600px;
+}
+
+#gráfico {
+    width: 554px;
+    height: 389px;
+}
+
+#texto {
+    width: 460px;
+    height: 209px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#bitLogo {
+    height: 46.87px;
+    padding-top: 14.57px;
+}
+
+#imgP2 {
+    width: 366px;
+    height: 250px;
+}
+
+#t2P2 {
+    display: flex;
+    font-size: 48px;
+    line-height: 56px;
+    align-self: flex-start;
+    color: #1B314F;
+}
