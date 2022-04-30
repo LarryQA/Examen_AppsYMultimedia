@@ -23,6 +23,14 @@ h2 {
     color: #6E29A9;
 }
 
+h3 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #523E97;
+}
+
 .encabezado {
     display: flex;
     height: 100px;
@@ -39,7 +47,21 @@ h2 {
     justify-content: space-between;
 }
 
-.encabezado button {
+
+.menu>ul {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu>ul li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.menu>ul li a {
+    text-decoration: none;
+    padding: 10px 5px;
     width: 124px;
     height: 36px;
     font-size: 20px;
@@ -48,6 +70,23 @@ h2 {
     background-color: transparent;
     border-color: transparent;
 }
+
+.menu>ul li a:hover {
+    color: #6E29A9;
+    background: #F5F5F5;
+    border-radius: 6px;
+}
+
+
+/* .encabezado button {
+    width: 124px;
+    height: 36px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #01A1E9;
+    background-color: transparent;
+    border-color: transparent;
+} */
 
 .logo {
     display: flex;
@@ -80,7 +119,6 @@ h2 {
 .dosColumnas {
     display: flex;
     align-items: center;
-
 }
 
 .dosColumnas div {
@@ -138,12 +176,12 @@ h2 {
 
 .articulos h2 {
     font-size: 24px;
-    margin:  0px;
+    margin: 0px;
     line-height: 28px;
     color: white;
 }
 
-.articulos article{
+.articulos article {
     position: relative;
     margin: 20px;
 }
@@ -155,19 +193,19 @@ h2 {
     border-radius: 19px;
 }
 
-.textoImagen{
+.textoImagen {
     z-index: 100;
     position: absolute;
     bottom: 34px;
     left: 14px;
 }
 
-.textoImagen p{
+.textoImagen p {
     margin: 0px;
     color: white;
 }
 
-.pieDePagina{
+.pieDePagina {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -177,7 +215,7 @@ h2 {
     background-color: #1B314F;
 }
 
-.textoLogo{
+.textoLogo {
     font-weight: 900;
     font-size: 40px;
     line-height: 47px;
@@ -186,15 +224,36 @@ h2 {
     padding: 0px;
 }
 
-.textoPie{
+.textoPie {
     color: white;
 }
 
-#inicio {
+.dosColumnasIzquieda {
+    display: flex;
+    align-items:  flex-start;
+}
+
+.dosColumnasIzquieda div {
+    margin-left: 104px;
+    flex-flow: column wrap;
+}
+
+.textoAcotado {
+    width: 740px;
+}
+
+.textoExtendido {
+    display: flex;
+    width: 1120px;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+/* #inicio {
     color: #6E29A9;
     background: #F5F5F5;
     border-radius: 6px;
-}
+} */
 
 #panel {
     width: 100%;
@@ -216,4 +275,17 @@ h2 {
 #bitLogo {
     height: 46.87px;
     padding-top: 14.57px;
+}
+
+#imgP2 {
+    width: 366px;
+    height: 250px;
+}
+
+#t2P2 {
+    display: flex;
+    font-size: 48px;
+    line-height: 56px;
+    align-self: flex-start;
+    color: #1B314F;
 }
