@@ -157,14 +157,30 @@ h3 {
     height: 74px;
 }
 
-.btnContent {
-    width: 272px;
-    height: 68px;
-    background: #6E29A9;
-    border-radius: 10px;
+.btnContent ul {
+    display: flex;
+}
+
+.btnContent ul li {
+    list-style-type: none;
+}
+
+.btnContent>ul li a {
+    text-decoration: none;
+    padding: 10px 5px;
+    width: 124px;
+    height: 36px;
     font-size: 20px;
-    line-height: 40px;
-    color: #FFFFFF;
+    line-height: 23px;
+    color: white;
+    background-color: #6E29A9;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.btnContent>ul li a:hover {
+    background: white;
+    color: #6E29A9;
 }
 
 .articulos {
@@ -230,7 +246,7 @@ h3 {
 
 .dosColumnasIzquieda {
     display: flex;
-    align-items:  flex-start;
+    align-items: flex-start;
 }
 
 .dosColumnasIzquieda div {
@@ -247,6 +263,44 @@ h3 {
     width: 1120px;
     flex-direction: column;
     align-self: flex-start;
+}
+
+.calculadora {
+    width: 460px;
+    margin-bottom: 50px;
+}
+
+.calculadora button {
+    width: 272px;
+    height: 68px;
+    background: #6E29A9;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.calculadora input {
+    width: 460px;
+    height: 54px;
+    background: #595959;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9px;
+
+}
+
+.calculadora p {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #1B314F;
+
 }
 
 /* #inicio {
@@ -288,4 +342,9 @@ h3 {
     line-height: 56px;
     align-self: flex-start;
     color: #1B314F;
+}
+
+#impP3 {
+    background: #F5F5F5;
+    border: 1px solid #000000;
 }
